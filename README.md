@@ -1,13 +1,13 @@
 # hateblo-auto-subscribe-back
 はてなブログの読者登録返しを行うスクリプトです。
 
-準備
+## 準備
 pipで必要モジュールをインストールしてください
 ```
 $ pip install -r requirements.txt
 ```
 
-使い方
+## 使い方
 ```
 $ python main.py [はてなID] [ログイン用パスワード]
 ```
