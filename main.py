@@ -5,6 +5,9 @@
 """
 はてなブログの読者登録返しを行うスクリプトです。
 
+使い方: 
+python main.py [hatena_id] [login_password]
+
 はてなIDとログイン用パスワードを実行時引数に使用して、
 自分のはてなブログ(メインブログ)を購読してくれているユーザのメインブログを購読します。
 
@@ -21,7 +24,7 @@ import get_subscriber_util
 import subscription_util
 import subscribe_util
 import time
-sleep_interval= 1.0 # はてなのサーバに迷惑をかけないために適宜加えるスリープ(秒)
+sleep_interval= 5.0 # はてなのサーバに迷惑をかけないために適宜加えるスリープ(秒)
 
 args = sys.argv
 if len( args ) != 3:
